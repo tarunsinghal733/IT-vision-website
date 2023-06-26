@@ -96,8 +96,8 @@ p{
     width: 0.675rem;
 }
 
-::-webkit-scrollbar-track {
-    background: var(#008AFC);
+::-webkit-scrollbar-track{
+    background-color: var(#008AFC);
 }
 
 ::-webkit-scrollbar-thumb {
