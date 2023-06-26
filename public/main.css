@@ -92,6 +92,17 @@ p{
     margin-top: 1rem;
     color: white;
 }
+::-webkit-scrollbar {
+    width: 0.675rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(#008AFC);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--black-color);
+}
 a,
 a:active,
 a:focus,
