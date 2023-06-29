@@ -458,11 +458,15 @@ a:hover,
     align-items: center;
 }
 
-.footer-wrapper ul li {
+.footer-wrapper ul li a i{
     margin-right: 1.5rem;
+    color: white;
+    font-size: 3.725rem;
 }
-.footer-wrapper ul li a:hover{
-transform: scaleY(25);
+.footer-wrapper ul li a i:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s;
+    color: #008AFC;
 }
 
 
