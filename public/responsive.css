@@ -94,7 +94,9 @@
     .main-wrapper {
         height: 35vh;
     }
+
 }
+
 
 @media (max-width:390.4px) {
     h1 {
