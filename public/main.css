@@ -408,3 +408,6 @@ color: black;
     height: 1rem;
     border-radius: 50%;
 }
+.testimonial-wrapper .card:hover{
+    background-color: #008AFC;
+}
