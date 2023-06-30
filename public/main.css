@@ -522,3 +522,14 @@ padding-top:1.5rem;
 .about .team-wrapper .card .team-detail p{
     color: black;
 }
+.portoflio .card-detail{
+box-shadow: var(--black-color);
+background-color: black;
+border-radius: 2rem;
+padding: 3rem;
+margin-top: -2rem;
+}
+.portoflio .card-detail h5{
+    font-weight:800;
+    font-family: var(--secondary-font);
+}
