@@ -9,6 +9,12 @@
     .process-wrapper .process-content{
         width: 100%;
     }
+    .form-section{
+        padding: 4rem 1rem;
+    }
+    .contact .get-in-touch .card{
+        padding: 2rem 1rem;
+    }
 }
 
 @media (max-width:991.5px) {
@@ -38,7 +44,10 @@
     .parallax-main {
         background-size: cover;
     }
-
+   
+    .contact .get-in-touch .card{
+        min-height: 300px;
+    }
 
 }
 
@@ -70,7 +79,9 @@
         right: 5%;
         width: 90%;
     }
-
+    .contact .get-in-touch .card{
+        min-height: 310px;
+    }
 }
 
 @media (max-width:590px) {
@@ -94,11 +105,13 @@
     .main-wrapper {
         height: 35vh;
     }
-
+    .contact .get-in-touch .card{
+        min-height: 254px;
+    }
 }
 
 
-@media (max-width:390.4px) {
+@media (max-width:390px) {
     h1 {
         font-size: 27px;
     }
@@ -106,4 +119,8 @@
     h2 {
         font-size: 25px;
     }
+    .contact .get-in-touch .card{
+        min-height: 254px;
+    }
 }
+
