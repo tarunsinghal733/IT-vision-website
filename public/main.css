@@ -492,44 +492,117 @@ a:hover,
 .whatsapp-icon .whatsapp img {
     width: 5.5rem;
 }
-.about .abilities-wrapper ul{
+
+.about .abilities-wrapper ul {
     list-style: none;
     padding-left: 10rem;
 }
-.about .abilities-wrapper h3{
+
+.about .abilities-wrapper h3 {
     color: var(--black-color);
     padding-left: 10rem;
 }
-.about .abilities-wrapper ul li p{
+
+.about .abilities-wrapper ul li p {
     color: #000;
 }
-.about .team-wrapper .card .team-img{
-width: 15rem;
-height: 15rem;
-margin: 0 auto;
-border-radius: 50%;
-border: 0.5rem solid var(--primary-color);
+
+.about .team-wrapper .card .team-img {
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 0.5rem solid var(--primary-color);
 }
-.about .team-wrapper .card .team-img img{
+
+.about .team-wrapper .card .team-img img {
     border-radius: 50%;
 }
-.about .team-wrapper .card .team-detail h5{
-font-weight: 800;
-color: black;
-margin-bottom: 0;
-padding-top:1.5rem;
+
+.about .team-wrapper .card .team-detail h5 {
+    font-weight: 800;
+    color: black;
+    margin-bottom: 0;
+    padding-top: 1.5rem;
 }
-.about .team-wrapper .card .team-detail p{
+
+.about .team-wrapper .card .team-detail p {
     color: black;
 }
-.portoflio .card-detail{
-box-shadow: var(--black-color);
-background-color: black;
-border-radius: 2rem;
-padding: 3rem;
-margin-top: -2rem;
+
+.portoflio .card-detail {
+    box-shadow: var(--black-color);
+    background-color: black;
+    border-radius: 2rem;
+    padding: 3rem;
+    margin-top: -2rem;
 }
-.portoflio .card-detail h5{
-    font-weight:800;
+
+.portoflio .card-detail h5 {
+    font-weight: 800;
     font-family: var(--secondary-font);
+}
+
+.contact .get-in-touch .card {
+    background-color: white;
+    min-height: 36rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.contact .card i {
+    font-size: 8rem;
+    margin-bottom: 3rem;
+}
+
+.contact .card h4 {
+    font-weight: 800;
+}
+
+.contact .card p {
+    color: black;
+    font-weight: 800;
+}
+
+.contact .card:hover {
+    background-color: var(--primary-color);
+}
+
+.form-section {
+    padding: 10rem;
+    background-color: black;
+    box-shadow: var(--box-shadow);
+    border-radius: 2rem;
+
+}
+
+.form-section .form-control:focus {
+    box-shadow: none;
+    border-color: white;
+}
+
+.form-section .form-control {
+    height: 4.5rem;
+    border: 0.1rem solid white;
+    font-size: 1.5rem;
+}
+
+.form-section textarea {
+    border: 0.1rem solid white;
+    font-size: 1.5rem;
+    min-height: 10rem;
+}
+
+.form-section input:hover {
+    background-color: #008AFC;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+
+.form-section textarea:hover {
+    background-color: #008AFC;
+    transition: 0.5s all ease-in-out;
+    color: white;
 }
