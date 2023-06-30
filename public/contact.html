@@ -122,22 +122,22 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10">
                     <div class="form-section">
-                        <form>
+                        <form action="/itvisiondata" id="itvisiondata" method="post">
                             <div class="mb-5">
-                                <input type="text" class="form-control" placeholder="Name *" required>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name *" required>
                             </div>
                             <div class="mb-5">
-                                <input type="text" class="form-control" placeholder="email *" required>
+                                <input type="text" class="form-control" id="email" name="email" placeholder="email *" required>
                             </div>
                             <div class="mb-5">
-                                <input type="text" class="form-control" placeholder="Suject" required>
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Suject" required>
                             </div>
                             <div class="mb-5">
-                                <textarea type="text" class="form-control" placeholder="Message....."
+                                <textarea type="text" class="form-control" id="msgcontent" name="msgcontent" placeholder="Message....."
                                     required></textarea>
                             </div>
                             <div class="mb-5 text-end">
-                                <button class="btn main-btn" type="submit">Submit</button>
+                                <button class="btn main-btn" type="submit" value="Send Message">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -197,6 +197,7 @@
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
         crossorigin="anonymous"></script>
     <script src="./main.js"></script>
+    <script src='index.js'></script>
 </body>
 
 </html>
